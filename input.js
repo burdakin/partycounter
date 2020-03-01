@@ -53,7 +53,7 @@ function diff2 () {
     } else if (diff === 0) {
         document.getElementById("res2").innerHTML = `Второй гость ничего не должен`;
     } else {
-        document.getElementById("res2").innerHTML = `Второму гостю должны - ${Math.abs(diff.toFixed(2))} рублей`;
+        document.getElementById("res2").innerHTML = `Второму гостю должны ${Math.abs(diff.toFixed(2))} рублей`;
     }
 }
 
